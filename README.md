@@ -87,7 +87,6 @@ bcrypt
 express-validator
 
 
-## Project Structure
 
 ## 📁 Project Structure
 
