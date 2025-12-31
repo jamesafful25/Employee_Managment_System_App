@@ -46,9 +46,13 @@ Salary reports
 
 🌐 Frontend
 Responsive UI with TailwindCSS
+
 React Context API for global state
+
 Axios-based API communication
+
 Protected routes
+
 
 🛠️ Tech Stack
 Frontend
