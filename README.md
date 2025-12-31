@@ -14,20 +14,29 @@ Role-based access control (Admin, HR, etc.)
 Google OAuth (Passport.js)
 
 👨‍💼 Employee Management
+
 Create, update, view, and delete employees
+
 Assign departments and roles
+
 Manage employee salaries
 
 
 🏢 Department & Role Management
+
 Create and manage departments
+
 Assign roles to employees
+
 Department-wise employee reports
 
 
 📊 Reports & Analytics
+
 Employee summary reports
+
 Department-based reports
+
 Salary reports
 
 
