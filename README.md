@@ -84,36 +84,38 @@ bcrypt
 express-validator
 
 
+## Project Structure
+
 Employee_Managment_System_App/
 ├── backend/
-│   ├── controllers/     # Business logic (route handlers)
-│   ├── models/          # Sequelize models & relationships
-│   ├── routes/          # API route definitions
-│   ├── middlewares/     # Auth & authorization middleware
-│   ├── validators/     # Request validation rules
-│   ├── utils/           # Helper functions (JWT, hashing, etc.)
-│   ├── config/          # Database & environment config
-│   └── server.js        # Backend entry point
+│ ├── controllers/ # Business logic (route handlers)
+│ ├── models/ # Sequelize models & relationships
+│ ├── routes/ # API route definitions
+│ ├── middlewares/ # Auth & authorization middleware
+│ ├── validators/ # Request validation rules
+│ ├── utils/ # Helper functions (JWT, hashing, etc.)
+│ ├── config/ # Database & environment config
+│ └── server.js # Backend entry point
 │
 ├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── assets/      # Images & static assets
-│   │   ├── components/
-│   │   │   ├── Auth/         # Authentication UI
-│   │   │   ├── Dashboard/   # Dashboard components
-│   │   │   ├── Departments/ # Department management
-│   │   │   ├── Employees/   # Employee management
-│   │   │   ├── Layout/      # Navbar, Sidebar, layout components
-│   │   │   └── Reports/     # Reporting UI
-│   │   ├── context/     # Global state (Auth context)
-│   │   ├── services/    # API service layer (Axios)
-│   │   ├── App.jsx
-│   │   ├── main.jsx
-│   │   └── index.css
-│   ├── vite.config.js
-│   ├── tailwind.config.js
-│   └── package.json
+│ ├── public/
+│ ├── src/
+│ │ ├── assets/ # Images & static assets
+│ │ ├── components/
+│ │ │ ├── Auth/ # Authentication UI
+│ │ │ ├── Dashboard/ # Dashboard components
+│ │ │ ├── Departments/ # Department management
+│ │ │ ├── Employees/ # Employee management
+│ │ │ ├── Layout/ # Navbar, Sidebar, layout components
+│ │ │ └── Reports/ # Reporting UI
+│ │ ├── context/ # Global state (Auth context)
+│ │ ├── services/ # API service layer (Axios)
+│ │ ├── App.jsx
+│ │ ├── main.jsx
+│ │ └── index.css
+│ ├── vite.config.js
+│ ├── tailwind.config.js
+│ └── package.json
 │
 └── README.md
 
