@@ -55,21 +55,36 @@ Protected routes
 
 
 🛠️ Tech Stack
+
 Frontend
+
 React (Vite)
+
 TailwindCSS
+
 Axios
+
 React Router
+
 Context API
 
+
 Backend
+
 Node.js
+
 Express.js
+
 Sequelize ORM
+
 MySQL
+
 JWT Authentication
+
 Passport.js
+
 bcrypt
+
 express-validator
 
 
