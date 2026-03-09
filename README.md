@@ -6,7 +6,7 @@ This project demonstrates real-world application architecture, clean separation 
 
 
  Features
-🔐 Authentication & Authorization
+ Authentication & Authorization
 User registration and login
 Password hashing with bcrypt
 JWT-based authentication
@@ -14,7 +14,7 @@ Role-based access control (Admin, HR, etc.)
 Google OAuth (Passport.js)
 
 
-👨‍💼 Employee Management
+ Employee Management
 
 Create, update, view, and delete employees
 
@@ -24,7 +24,7 @@ Manage employee salaries
 
 
 
-🏢 Department & Role Management
+ Department & Role Management
 
 Create and manage departments
 
@@ -34,7 +34,7 @@ Department-wise employee reports
 
 
 
-📊 Reports & Analytics
+ Reports & Analytics
 
 Employee summary reports
 
@@ -44,7 +44,7 @@ Salary reports
 
 
 
-🌐 Frontend
+ Frontend
 Responsive UI with TailwindCSS
 
 React Context API for global state
@@ -54,7 +54,7 @@ Axios-based API communication
 Protected routes
 
 
-🛠️ Tech Stack
+Tech Stack
 
 Frontend
 
@@ -89,7 +89,7 @@ bcrypt
 express-validator
 
 
-## 📁 Project Structure
+## Project Structure
 ```text
 Employee_Managment_System_App/
 ├── backend/
@@ -126,8 +126,8 @@ Employee_Managment_System_App/
 
 
 
-⚙️ Installation & Setup
-1️⃣ Clone the Repository
+ Installation & Setup
+1️ Clone the Repository
 git clone https://github.com/jamesafful25/Employee_Managment_System_App.git
 cd Employee_Managment_System_App
 
@@ -154,7 +154,7 @@ Backend runs on:
 
 http://localhost:5000
 
-🎨 Frontend Setup
+ Frontend Setup
 cd frontend
 npm install
 npm run dev
@@ -163,7 +163,7 @@ npm run dev
 Frontend runs on:
 http://localhost:5173
 
-🔐 Authentication Flow
+ Authentication Flow
 User logs in
 Backend validates credentials
 JWT token is generated
